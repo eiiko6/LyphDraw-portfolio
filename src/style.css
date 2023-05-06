@@ -87,3 +87,10 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+::selection {
+  background-color: #ffffff31;
+}
+::-moz-selection {
+  background-color: #ffffff31;
+}
