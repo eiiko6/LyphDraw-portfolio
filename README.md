@@ -2,5 +2,5 @@
 
 ## Introduction
 
-I'm making this for a friend, meybe he could use it later?   
-This app uses Vue and javascript.   
+I'm making this for a friend, maybe he could use it later?   
+I'm using Vue and Vite.   
