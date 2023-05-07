@@ -1,7 +1,7 @@
 <template>
     <div>
-        <h1>Lorem ipsum dolor sit amet.</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit vero numquam repudiandae tenetur laudantium nihil.</p>
+        <h1>This is the homepage.</h1>
+        <p>We can add a bio and a huge banner here.</p>
     </div>
 </template>
 
