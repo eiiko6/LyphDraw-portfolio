@@ -9,7 +9,7 @@ import Home from './components/Home.vue'
     <div class="navbar">
       <nav>
         <ul>
-          <li><a href="#"><img src="https://github.com/mxstoto6/LyphDraw-portfolio/blob/assets/pfp-icon.png?raw=true" alt="Home"></a></li>
+          <li class="pfp"><a href="#"><img src="https://github.com/mxstoto6/LyphDraw-portfolio/blob/assets/pfp-icon.png?raw=true" alt="Pfp"></a></li>
           <div class="separator"></div>
           <li><a href="#"><img src="https://github.com/mxstoto6/LyphDraw-portfolio/blob/assets/icons8_home_1.ico?raw=true" alt="Home"></a></li>
           <li><a href="#"><img src="https://github.com/mxstoto6/LyphDraw-portfolio/blob/assets/icons8_large_icons.ico?raw=true" alt="Artworks"></a></li>
@@ -54,16 +54,17 @@ import Home from './components/Home.vue'
 }
 
 .navbar nav li {
-  margin: 30px;
+  margin: 25px;
 }
 
 .navbar nav a {
   color: #fff;
   text-decoration: none;
-  padding: 5px 10px;
+  padding: 10px 10px;
   border-radius: 2px;
   margin: 5px;
   transform: translateZ(0);
+  -webkit-tap-highlight-color: transparent;
 }
 
 .navbar img {
@@ -81,6 +82,48 @@ import Home from './components/Home.vue'
   width: 30px;
   height: 3px;
   border-radius: 2px;
-  margin-bottom: 20px;
+  margin: 20px;
+}
+
+@media screen and (max-width: 730px) {
+  .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px 0;
+  }
+  
+  .navbar nav ul {
+    flex-direction: row;
+  }
+  
+  .navbar nav li {
+    margin: 0;
+  }
+  
+  .separator {
+    width: 3px;
+    height: 30px;
+    border-radius: 2px;
+    margin: 10px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .pfp {
+    display: none;
+  }
+
+  .separator {
+    display: none;
+  }
+}
+
+.navbar * {
+  transition: .1s ease-out;
 }
 </style>
