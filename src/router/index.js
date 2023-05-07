@@ -5,6 +5,7 @@ import Links from '../components/Links.vue'
 import Misc from '../components/Misc.vue'
 
 const router = createRouter({
+    history: createWebHistory(),
     mode: 'hash',
     routes: [
         {
