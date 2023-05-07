@@ -21,7 +21,7 @@
   left: 0;
   height: 100%;
   width: 100px;
-  background-color: #333;
+  background-color: #00000063; /* background-color: #00000000;*/
   color: #fff;
   padding: 10px;
   display: flex;
