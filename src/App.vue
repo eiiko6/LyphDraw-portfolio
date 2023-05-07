@@ -8,9 +8,7 @@ import Navbar from './components/Navbar.vue'
 
     <Navbar></Navbar>
 
-    <router-view>
-      
-    </router-view>
+    <router-view></router-view>
 
   </div>
 
