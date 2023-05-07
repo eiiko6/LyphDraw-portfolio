@@ -9,12 +9,12 @@ import Home from './components/Home.vue'
     <div class="navbar">
       <nav>
         <ul>
-          <li><a href="#"><img src="./assets/pfp.png" alt="Home"></a></li>
+          <li><a href="#"><img src="https://github.com/mxstoto6/LyphDraw-portfolio/blob/assets/pfp-icon.png?raw=true" alt="Home"></a></li>
           <div class="separator"></div>
-          <li><a href="#"><img src="./assets/icons8_home_1.ico" alt="Home"></a></li>
-          <li><a href="#"><img src="./assets/icons8_large_icons.ico" alt="Artworks"></a></li>
-          <li><a href="#"><img src="./assets/icons8_linking_1.ico" alt="Links"></a></li>
-          <li><a href="#"><img src="./assets/icons8_categorize_5.ico" alt="Misc"></a></li>
+          <li><a href="#"><img src="https://github.com/mxstoto6/LyphDraw-portfolio/blob/assets/icons8_home_1.ico?raw=true" alt="Home"></a></li>
+          <li><a href="#"><img src="https://github.com/mxstoto6/LyphDraw-portfolio/blob/assets/icons8_large_icons.ico?raw=true" alt="Artworks"></a></li>
+          <li><a href="#"><img src="https://github.com/mxstoto6/LyphDraw-portfolio/blob/assets/icons8_linking_1.ico?raw=true" alt="Links"></a></li>
+          <li><a href="#"><img src="https://github.com/mxstoto6/LyphDraw-portfolio/blob/assets/icons8_categorize_5.ico?raw=true" alt="Misc"></a></li>
         </ul>
       </nav>
     </div>
