@@ -1,9 +1,10 @@
 <template>
     <div class="content">
         <div class="background"></div>
-        <h1>This is the homepage.</h1>
-        <p>We can add a bio and a huge banner here.</p>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur nobis consequatur deleniti obcaecati, laborum ullam laboriosam eaque quae corporis cupiditate sunt expedita dolorem optio debitis officiis at et provident repudiandae error. Molestias ipsam quo dolorem perspiciatis esse, incidunt voluptatum ducimus alias repellat autem modi nostrum quis aut. Doloremque inventore laboriosam consectetur repellendus accusamus dolorum distinctio a fuga sit itaque, animi repellat nostrum, voluptatibus quis cupiditate non nesciunt quisquam tempore praesentium maiores? Vel harum, delectus ab voluptas natus nobis, aliquam rerum necessitatibus saepe molestiae dolorum molestias. Consectetur asperiores aspernatur corrupti delectus, dolorum sed numquam repellendus cum deserunt, sequi voluptates, nam qui.</p>
+        <div class="img"><img class="pfp" src="https://github.com/mxstoto6/LyphDraw-portfolio/blob/assets/pfp.png?raw=true" alt="pfp"></div>
+        <h1>-> LyphDraw</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit a saepe doloremque ipsum quo fuga, dolorum unde deserunt id cum neque ipsa totam voluptatibus, est suscipit veritatis recusandae laudantium impedit?</p>
+        <div class="button"><router-link class="link" to="/LyphDraw-portfolio/Artworks">Go to artworks</router-link></div>
     </div>
 </template>
 
@@ -20,7 +21,6 @@
         right:0px;
         bottom:0px;
         left:0px;
-        text-align: center;
         max-width: 80%;
     }
 
@@ -39,6 +39,49 @@
         background-size: cover;
         position:absolute;
         filter: blur(4px) opacity(0.5);
+    }
+
+    .pfp {
+        min-width: 250px;
+        width: 30%;
+        height: auto;
+    }
+
+    .img {
+        margin-top: 50px;
+    }
+
+    @media screen and (max-width: 730px) {
+        .img {
+        margin-top: 140px;
+        }
+    }
+
+    .link {
+        border-radius: 8px;
+        border: 1px solid transparent;
+        padding: 0.6em 1.2em;
+        font-size: 1em;
+        font-weight: 500;
+        font-family: inherit;
+        background-color: #2e2e2e;
+        cursor: pointer;
+        transition: border-color 0.25s;
+        color: #ff8080;
+    }
+
+    .link:hover {
+        border-color: #ff646497;
+        color: #ff6464;
+    }
+
+    .link:focus,
+    .link:focus-visible {
+    outline: 4px auto -webkit-focus-ring-color;
+    }
+
+    .button {
+        margin-top: 40px;
     }
 
 </style>
