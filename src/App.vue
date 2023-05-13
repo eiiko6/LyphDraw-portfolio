@@ -27,7 +27,7 @@ import Navbar from './components/Navbar.vue'
 @media screen and (max-width: 730px) {
   #app {
     margin-left: 0;
-    margin-top: 90px;
+    margin-top: 120px;
   }
 }
 </style>

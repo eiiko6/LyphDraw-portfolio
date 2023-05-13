@@ -1,7 +1,7 @@
 <template>
     <div class="content">
         <h1>This is the misc page.</h1>
-        <p>Who knows what will be there...</p>
+        <p>Who knows what will be there... Discord server, maybe? Twitch schedule? Other tools, announcements, whatever...</p>
     </div>
 </template>
 
