@@ -2,7 +2,7 @@
     <div class="navbar">
     <nav>
       <ul>
-        <li class="pfp"><a href="#"><img src="https://github.com/mxstoto6/LyphDraw-portfolio/blob/assets/pfp-small.png?raw=true" alt="Pfp"></a></li>
+        <li class="pfp"><a href="#"><img src="https://github.com/mxstoto6/LyphDraw-portfolio/blob/assets/pfp-icon.png?raw=true" alt="Pfp"></a></li>
         <div class="separator"></div>
         <li><router-link to="/LyphDraw-portfolio/"><img src="https://github.com/mxstoto6/LyphDraw-portfolio/blob/assets/icons8_home_1.ico?raw=true" alt="Home"></router-link></li>
         <li><router-link to="/LyphDraw-portfolio/Artworks"><img src="https://github.com/mxstoto6/LyphDraw-portfolio/blob/assets/icons8_large_icons.ico?raw=true" alt="Artworks"></router-link></li>

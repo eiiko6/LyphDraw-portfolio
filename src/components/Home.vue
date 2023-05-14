@@ -1,7 +1,7 @@
 <template>
     <div class="content">
         <div class="background"></div>
-        <div class="img"><img class="pfp" src="https://github.com/mxstoto6/LyphDraw-portfolio/blob/assets/pfp.png?raw=true" alt="pfp"></div>
+        <div class="img"><img class="pfp" src="https://github.com/mxstoto6/LyphDraw-portfolio/blob/assets/pfp-small.png?raw=true" alt="pfp"></div>
         <h1>-> LyphDraw</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit a saepe doloremque ipsum quo fuga, dolorum unde deserunt id cum neque ipsa totam voluptatibus, est suscipit veritatis recusandae laudantium impedit?</p>
         <div class="button"><router-link class="link" to="/LyphDraw-portfolio/Artworks">Go to artworks</router-link></div>
@@ -45,6 +45,7 @@
         min-width: 250px;
         width: 30%;
         height: auto;
+        max-width: 350px;
     }
 
     .img {
