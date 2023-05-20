@@ -12,8 +12,6 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
-
-  overflow: hidden;
 }
 
 a {
@@ -64,4 +62,10 @@ button:focus-visible {
 }
 ::-moz-selection {
   background-color: #ffffff31;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
