@@ -7,7 +7,7 @@
 
         <div class="cards">
 
-            <a href="#" class="card">
+            <a href="https://www.instagram.com/p/CrR02W6oKtc/" target="_blank" class="card">
                 <div class="card-bg"></div>
 
                 <div class="card-content">
@@ -156,7 +156,7 @@
         -o-background-size: cover;
         background-size: cover;
         position:absolute;
-        filter: brightness(0.3) blur(5px);
+        filter: brightness(0.3) blur(3px);
     }
 
     .card-content {
