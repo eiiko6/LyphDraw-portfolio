@@ -4,10 +4,10 @@
       <ul>
         <li class="pfp"><a href="#"><img src="https://github.com/mxstoto6/LyphDraw-portfolio/blob/assets/pfp-icon.png?raw=true" alt="Pfp"></a></li>
         <div class="separator"></div>
-        <li><router-link to="/LyphDraw-portfolio/"><img src="https://github.com/mxstoto6/LyphDraw-portfolio/blob/assets/icons8_home_1.ico?raw=true" alt="Home"></router-link></li>
-        <li><router-link to="/LyphDraw-portfolio/Artworks"><img src="https://github.com/mxstoto6/LyphDraw-portfolio/blob/assets/icons8_large_icons.ico?raw=true" alt="Artworks"></router-link></li>
-        <li><router-link to="/LyphDraw-portfolio/Links"><img src="https://github.com/mxstoto6/LyphDraw-portfolio/blob/assets/icons8_linking_1.ico?raw=true" alt="Links"></router-link></li>
-        <li><router-link to="/LyphDraw-portfolio/Misc"><img src="https://github.com/mxstoto6/LyphDraw-portfolio/blob/assets/icons8_categorize_5.ico?raw=true" alt="Misc"></router-link></li>
+        <li><router-link class="lk" to="/LyphDraw-portfolio/"><img src="https://github.com/mxstoto6/LyphDraw-portfolio/blob/assets/icons8_home_1.ico?raw=true" alt="Home"></router-link></li>
+        <li><router-link class="lk" to="/LyphDraw-portfolio/Artworks"><img src="https://github.com/mxstoto6/LyphDraw-portfolio/blob/assets/icons8_large_icons.ico?raw=true" alt="Artworks"></router-link></li>
+        <li><router-link class="lk" to="/LyphDraw-portfolio/Links"><img src="https://github.com/mxstoto6/LyphDraw-portfolio/blob/assets/icons8_linking_1.ico?raw=true" alt="Links"></router-link></li>
+        <li><router-link class="lk" to="/LyphDraw-portfolio/Misc"><img src="https://github.com/mxstoto6/LyphDraw-portfolio/blob/assets/icons8_categorize_5.ico?raw=true" alt="Misc"></router-link></li>
       </ul>
     </nav>
 </div>
@@ -31,6 +31,11 @@
     /*justify-content: center;*/
   }
 
+  .lk.router-link-active img {
+    opacity: .6;
+    transform: scale(1.3);
+  }
+
   .navbar::before {
     content: "";
     position: absolute;
@@ -42,7 +47,6 @@
     opacity: 0.8;
     z-index: -1;
     background-color: #00000023;
-    
   }
 
   .navbar nav ul {
