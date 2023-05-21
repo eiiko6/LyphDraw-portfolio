@@ -37,6 +37,23 @@
                 </div>
             </a>
 
+            <a href="#" class="card">
+                <div class="card-bg"></div>
+
+                <div class="card-content">
+                    <div class="popup">
+                    <h2>Click to see</h2>
+                    </div>
+
+                    <div class="true-content">
+                        <h2>Artwork Title</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, veniam.</p>
+                    </div>
+                </div>
+            </a>
+
+            <div class="footer"></div>
+
         </div>
 
     </div>
@@ -66,6 +83,14 @@
         position: fixed;
         min-height: 100%;
         height: auto;
+    }
+
+    .footer {
+        top: 0;
+        left: 0;
+        margin: 0;
+        height: 50px;
+        width: 100%;
     }
 
     .content {

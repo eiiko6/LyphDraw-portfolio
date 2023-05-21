@@ -26,6 +26,8 @@
                 </div>
             </div>
 
+            <div class="footer"></div>
+
         </div>
     </div>
 </template>
@@ -44,6 +46,13 @@
         bottom:0px;
         left:0px;
         text-align: center;
+    }
+    .footer {
+        top: 0;
+        left: 0;
+        margin: 0;
+        height: 50px;
+        width: 100%;
     }
 
     .links {
