@@ -15,6 +15,7 @@
 
 <style scoped>
   .navbar {
+    z-index: 2;
     user-select: none;
     position: fixed;
     top: 0;
