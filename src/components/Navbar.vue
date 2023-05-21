@@ -27,6 +27,7 @@
     padding: 10px;
     display: flex;
     flex-direction: column;
+    border-right: 2px solid #ffffff80;
     /*justify-content: center;*/
   }
 
@@ -40,7 +41,8 @@
     backdrop-filter: blur(12px);
     opacity: 0.8;
     z-index: -1;
-    background-color: #0000003b;
+    background-color: #00000023;
+    
   }
 
   .navbar nav ul {
@@ -99,6 +101,8 @@
       flex-direction: row;
       justify-content: space-around;
       padding: 10px 0;
+      border-right: none;
+      border-bottom: 2px solid #ffffff80;
     }
     
     .navbar nav ul {
