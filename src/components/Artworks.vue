@@ -150,7 +150,7 @@
         left: 0;
         right: 0;
         bottom: 0;
-        background-image: url(./src/temp/artwork.png);
+        background-image: url(https://github.com/mxstoto6/LyphDraw-portfolio/blob/assets/artwork.png?raw=true);
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
