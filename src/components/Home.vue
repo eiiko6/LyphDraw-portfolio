@@ -1,5 +1,10 @@
 <template>
     <div class="content">
+        <!--<div class="warning-banner">
+            <h2>Warning: this website is a work in progress. The graphics are mainly temporary.</h2>
+            <button></button>
+        </div>-->
+
         <div class="background"></div>
         <div class="img"><img class="pfp" src="https://github.com/mxstoto6/LyphDraw-portfolio/blob/assets/pfp-small.png?raw=true" alt="pfp"></div>
         <h1>-> LyphDraw</h1>
@@ -16,6 +21,7 @@
 
     .content {
         margin: auto;
+        margin-top: 120px;
         padding: 0;
         top:0px;
         right:0px;
@@ -55,6 +61,10 @@
     @media screen and (max-width: 730px) {
         .img {
         margin-top: 140px;
+        }
+
+        .warning-banner {
+
         }
     }
 

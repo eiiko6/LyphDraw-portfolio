@@ -2,7 +2,7 @@ import {createRouter, createWebHistory} from 'vue-router'
 import Home from '../components/Home.vue'
 import Artworks from '../components/Artworks.vue'
 import Links from '../components/Links.vue'
-import Misc from '../components/Misc.vue'
+import Comissions from '../components/Comissions.vue'
 
 const router = createRouter({
     history: createWebHistory(),
@@ -24,9 +24,9 @@ const router = createRouter({
             component: Links
         },
         {
-            path: '/LyphDraw-portfolio/Misc',
-            name: Misc,
-            component: Misc
+            path: '/LyphDraw-portfolio/Comissions',
+            name: Comissions,
+            component: Comissions
         }
     ],
     scrollBehavior (to, from, savedPosition) {

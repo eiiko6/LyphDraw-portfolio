@@ -1,5 +1,6 @@
 <script setup>
 import Navbar from './components/Navbar.vue'
+import Warning_banner from './components/Warning_banner.vue'
 </script>
 
 <template>
@@ -7,6 +8,8 @@ import Navbar from './components/Navbar.vue'
   <div class="content">
 
     <Navbar></Navbar>
+
+    <Warning_banner></Warning_banner>
 
     <div id="page">
       <router-view></router-view>
