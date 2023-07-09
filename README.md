@@ -1,7 +1,7 @@
 # LyphDraw-portfolio
 
 <p float="left">
-    <img alt="Demo" src="./ignore/Home.png" width="100" />
+    <img alt="Demo" src="./ignore/Home.png" width="300" />
     <img alt="Demo2" src="./ignore/Home-mobile.png" width="100" />
 </p>
 
