@@ -62,10 +62,6 @@
         .img {
         margin-top: 140px;
         }
-
-        .warning-banner {
-
-        }
     }
 
     .link {

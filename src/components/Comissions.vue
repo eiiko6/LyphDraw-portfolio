@@ -1,7 +1,7 @@
 <template>
     <div class="content">
         <div class="background"></div>
-        <h1 class="title">You can comission LyphDraw <br> from the following platforms:</h1>
+        <h1 class="title">You can comission LyphDraw <br> from the following ways:</h1>
         <div class="links">
 
             <div></div>
