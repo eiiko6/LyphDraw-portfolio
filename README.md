@@ -2,7 +2,7 @@
 
 <p float="left">
     <img alt="Demo" src="./ignore/Home.png" width="500" />
-    <img alt="Demo2" src="./ignore/Home-mobile.png" width="150" />
+    <img alt="Demo2" src="./ignore/Home-mobile.png" width="142" />
 </p>
 
 ## Introduction
