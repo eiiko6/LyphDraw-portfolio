@@ -1,11 +1,7 @@
 # LyphDraw-portfolio
 
-![alt text](https://github.com/mxstoto6/LyphDraw-portfolio
-/blob/main/Home.png?raw=true)
-![alt text](https://github.com/mxstoto6/LyphDraw-portfolio
-/blob/main/Home-mobile.png?raw=true)   
-
-<img alt="Demo" src="./ignore/Artworks.png" />
+<img alt="Demo" src="./ignore/Home.png" />
+<img alt="Demo2" src="./ignore/Home-mobile.png" />
 
 ## Introduction
 
