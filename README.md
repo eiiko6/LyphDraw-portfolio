@@ -5,9 +5,7 @@
     <img alt="Demo2" src="./ignore/Home-mobile.png" width="148" />
 </p>
 
-## Introduction
-
-I'm making this for a friend, maybe he could use it later?   
-Please note that some images are temporary, and will be changed to official artworks.
+I'm making this for a digital artist friend.   
+It's made using Vite+Vue, and the css is fully handmade.
 
 Issues and PRs are welcome btw ^^
