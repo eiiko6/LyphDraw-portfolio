@@ -10,6 +10,7 @@
         <h1>-> LyphDraw</h1>
         <p>LyphDraw is a passionate self-taught artist. He has made a large amount of drawings, either classical or digital. His styles are mainly manga/anime, cartoon and semi-realistic illustrations, and he can work with caricatures sometimes. LyphDraw loves experimenting, as seen in the various colors and backgrounds in his artworks.</p>
         <div class="button"><router-link class="link" to="/LyphDraw-portfolio/Artworks">Go to artworks</router-link></div>
+        <div class="footer"></div>
     </div>
 </template>
 
@@ -28,6 +29,14 @@
         bottom:0px;
         left:0px;
         max-width: 80%;
+    }
+
+    .footer {
+        top: 0;
+        left: 0;
+        margin: 0;
+        height: 50px;
+        width: 100%;
     }
 
     p {
@@ -51,8 +60,11 @@
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
-        position:absolute;
         filter: blur(4px) opacity(0.5);
+        height: 250vh; /*Adjust manually*/
+        position: fixed;
+        min-height: 100%;
+        height: auto;
     }
 
     .pfp {
