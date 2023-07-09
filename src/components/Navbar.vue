@@ -5,9 +5,9 @@
         <li class="pfp"><a href="#"><img src="https://github.com/mxstoto6/LyphDraw-portfolio/blob/assets/pfp-icon.png?raw=true" alt="Pfp"></a></li>
         <div class="separator"></div>
         <li><router-link class="lk" to="/LyphDraw-portfolio/"><img src="https://github.com/mxstoto6/LyphDraw-portfolio/blob/assets/icons8_home_1.ico?raw=true" alt="Home"></router-link></li>
-        <li><router-link class="lk" to="/LyphDraw-portfolio/Artworks"><img src="https://github.com/mxstoto6/LyphDraw-portfolio/blob/assets/icons8_large_icons.ico?raw=true" alt="Artworks"></router-link></li>
-        <li><router-link class="lk" to="/LyphDraw-portfolio/Links"><img src="https://github.com/mxstoto6/LyphDraw-portfolio/blob/assets/icons8_linking_1.ico?raw=true" alt="Links"></router-link></li>
-        <li><router-link class="lk" to="/LyphDraw-portfolio/Comissions"><img src="https://github.com/mxstoto6/LyphDraw-portfolio/blob/assets/icons8_categorize_5.ico?raw=true" alt="Misc"></router-link></li>
+        <li class="b"><router-link class="lk" to="/LyphDraw-portfolio/Artworks"><img src="https://github.com/mxstoto6/LyphDraw-portfolio/blob/assets/icons8_large_icons.ico?raw=true" alt="Artworks"></router-link></li>
+        <li class="b"><router-link class="lk" to="/LyphDraw-portfolio/Links"><img src="https://github.com/mxstoto6/LyphDraw-portfolio/blob/assets/icons8_linking_1.ico?raw=true" alt="Links"></router-link></li>
+        <li class="b"><router-link class="lk" to="/LyphDraw-portfolio/Comissions"><img src="https://github.com/mxstoto6/LyphDraw-portfolio/blob/assets/icons8_categorize_5.ico?raw=true" alt="Misc"></router-link></li>
       </ul>
     </nav>
 </div>
@@ -43,7 +43,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    backdrop-filter: blur(12px);
+    backdrop-filter: blur(15px);
     opacity: 0.8;
     z-index: -1;
     background-color: #00000023;
@@ -57,10 +57,12 @@
     flex-direction: column;
     align-items: center;
     height: 100%;
+    left: 0;
   }
 
-  .navbar nav li {
-    margin: 25px;
+  .navbar nav ul li {
+    margin-top: 25px;
+    margin-bottom: 25px;
   }
 
   .navbar nav a {
@@ -71,11 +73,13 @@
     margin: 5px;
     transform: translateZ(0);
     -webkit-tap-highlight-color: transparent;
+    left: 0;
   }
 
   .navbar img {
     width: 45px;
     transition: 0.1s ease-out;
+    left: 0;
   }
 
   .navbar a:hover img {
