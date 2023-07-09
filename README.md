@@ -1,7 +1,9 @@
 # LyphDraw-portfolio
 
-<img alt="Demo" src="./ignore/Home.png" />
-<img alt="Demo2" src="./ignore/Home-mobile.png" />
+<p float="left">
+    <img alt="Demo" src="./ignore/Home.png" width="100" />
+    <img alt="Demo2" src="./ignore/Home-mobile.png" width="100" />
+</p>
 
 ## Introduction
 
