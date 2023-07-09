@@ -19,6 +19,7 @@
     }
 
     button {
+        color: #ffffffde;
         background-color: transparent;
         border: solid #ffffffde 2px;
         position: absolute;

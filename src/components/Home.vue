@@ -8,7 +8,7 @@
         <div class="background"></div>
         <div class="img"><img class="pfp" src="https://github.com/mxstoto6/LyphDraw-portfolio/blob/assets/pfp-small.png?raw=true" alt="pfp"></div>
         <h1>-> LyphDraw</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit a saepe doloremque ipsum quo fuga, dolorum unde deserunt id cum neque ipsa totam voluptatibus, est suscipit veritatis recusandae laudantium impedit?</p>
+        <p>LyphDraw is a passionate self-taught artist. He has made a large amount of drawings, either classical or digital. His styles are mainly manga/anime, cartoon and semi-realistic illustrations, and he can work with caricatures sometimes. LyphDraw loves experimenting, as seen in the various colors and backgrounds in his artworks.</p>
         <div class="button"><router-link class="link" to="/LyphDraw-portfolio/Artworks">Go to artworks</router-link></div>
     </div>
 </template>
@@ -28,6 +28,14 @@
         bottom:0px;
         left:0px;
         max-width: 80%;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    h1 {
+        font-size: 60px;
     }
 
     .background {
@@ -61,6 +69,14 @@
     @media screen and (max-width: 730px) {
         .img {
         margin-top: 140px;
+        }
+
+        p {
+            font-size: 18px;
+        }
+
+        h1 {
+            font-size: 50px;
         }
     }
 
