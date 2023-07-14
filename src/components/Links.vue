@@ -8,7 +8,7 @@
                 <div class="card-bg"></div>
 
                 <div class="card-content">
-                    <img src="https://github.com/mxstoto6/LyphDraw-portfolio/blob/assets/icons8-instagram-384.png?raw=true" alt="insta">
+                    <img src="https://github.com/eiiko6/LyphDraw-portfolio/blob/assets/icons8-instagram-384.png?raw=true" alt="insta">
                     <h2>Instagram</h2>
                     <p>LyphDraw has been active on Instagram since December 2022.</p>
                     <div class="button"><a class="link" href="https://www.instagram.com/lyph_draw/" target="_blank">Go to Instagram</a></div>
@@ -19,7 +19,7 @@
                 <div class="card-bg"></div>
 
                 <div class="card-content">
-                    <img src="https://github.com/mxstoto6/LyphDraw-portfolio/blob/assets/icons8-twitch-384.png?raw=true" alt="twitch">
+                    <img src="https://github.com/eiiko6/LyphDraw-portfolio/blob/assets/icons8-twitch-384.png?raw=true" alt="twitch">
                     <h2>Twitch</h2>
                     <p>LyphDraw streams his drawing process from time to time.</p>
                     <div class="button"><a class="link" href="https://www.twitch.tv/evan27draw" target="_blank">Go to Twitch</a></div>
