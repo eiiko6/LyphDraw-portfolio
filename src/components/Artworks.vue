@@ -1,3 +1,5 @@
+<!-- Doing this one-by-one is really bad. I'll make a better alternative with some js later i guess... -->
+
 <template>
     <div class="content">
 
@@ -7,8 +9,8 @@
 
         <div class="cards">
 
-            <a href="https://www.instagram.com/p/CrR02W6oKtc/" target="_blank" class="card">
-                <div class="card-bg"></div>
+            <a href="https://cdn.discordapp.com/attachments/851501348775657543/1130235790161629284/Braixen_x_Doublade.png" target="_blank" class="card">
+                <div class="card-bg bg1"></div>
 
                 <div class="card-content">
                     <div class="popup">
@@ -16,14 +18,74 @@
                     </div>
 
                     <div class="true-content">
-                        <h2>Artwork Title</h2>
+                        <h2>Braixen x Doublade</h2>
+                        <p>A Pokémon fusion between Braixen and Doublade.</p>
+                    </div>
+                </div>
+            </a>
+
+            <a href="https://cdn.discordapp.com/attachments/851501348775657543/1130233341082337412/Axo.png" target="_blank" class="card">
+                <div class="card-bg bg2"></div>
+
+                <div class="card-content">
+                    <div class="popup">
+                    <h2>Click to see</h2>
+                    </div>
+
+                    <div class="true-content">
+                        <h2>Axo</h2>
+                        <p>A cute axolotl!</p>
+                    </div>
+                </div>
+            </a>
+
+            <a href="https://cdn.discordapp.com/attachments/851501348775657543/1130235288329920572/Cool_Girl.png" target="_blank" class="card">
+                <div class="card-bg bg3"></div>
+
+                <div class="card-content">
+                    <div class="popup">
+                    <h2>Click to see</h2>
+                    </div>
+
+                    <div class="true-content">
+                        <h2>Cool Girl</h2>
+                        <p>A cool girl.</p>
+                    </div>
+                </div>
+            </a>
+
+            <a href="https://cdn.discordapp.com/attachments/851501348775657543/1130236874703785994/Joseph.png" target="_blank" class="card">
+                <div class="card-bg bg4"></div>
+
+                <div class="card-content">
+                    <div class="popup">
+                    <h2>Click to see</h2>
+                    </div>
+
+                    <div class="true-content">
+                        <h2>Joseph</h2>
+                        <p>Attempt on a geometrical style thing.</p>
+                    </div>
+                </div>
+            </a>
+
+            <a href="https://cdn.discordapp.com/attachments/851501348775657543/1130236878109560912/Clara_Cleo.png" target="_blank" class="card">
+                <div class="card-bg bg5"></div>
+
+                <div class="card-content">
+                    <div class="popup">
+                    <h2>Click to see</h2>
+                    </div>
+
+                    <div class="true-content">
+                        <h2>Clara Cleo</h2>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, veniam.</p>
                     </div>
                 </div>
             </a>
 
-            <a href="#" class="card">
-                <div class="card-bg"></div>
+            <a href="https://cdn.discordapp.com/attachments/851501348775657543/1130236875714592869/Monster.png" target="_blank" class="card">
+                <div class="card-bg bg6"></div>
 
                 <div class="card-content">
                     <div class="popup">
@@ -31,14 +93,14 @@
                     </div>
 
                     <div class="true-content">
-                        <h2>Artwork Title</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, veniam.</p>
+                        <h2>Monster</h2>
+                        <p>Isn't it cute?</p>
                     </div>
                 </div>
             </a>
 
-            <a href="#" class="card">
-                <div class="card-bg"></div>
+            <a href="https://cdn.discordapp.com/attachments/851501348775657543/1130236876998066288/jsp.png" target="_blank" class="card">
+                <div class="card-bg bg7"></div>
 
                 <div class="card-content">
                     <div class="popup">
@@ -46,8 +108,23 @@
                     </div>
 
                     <div class="true-content">
-                        <h2>Artwork Title</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, veniam.</p>
+                        <h2>Jsp</h2>
+                        <p>idk.</p>
+                    </div>
+                </div>
+            </a>
+
+            <a href="https://cdn.discordapp.com/attachments/851501348775657543/1130250075990409286/Pigeons.png" target="_blank" class="card">
+                <div class="card-bg bg8"></div>
+
+                <div class="card-content">
+                    <div class="popup">
+                    <h2>Click to see</h2>
+                    </div>
+
+                    <div class="true-content">
+                        <h2>Pigeons</h2>
+                        <p>An illustration originally made for a mobile game named "Flappigeon".</p>
                     </div>
                 </div>
             </a>
@@ -64,6 +141,38 @@
 </script>
 
 <style scoped>
+
+    .bg1 {
+        background-image: url(https://github.com/eiiko6/LyphDraw-portfolio/blob/assets/artworks/Braixen%20x%20Doublade-small.png?raw=true);
+    }
+
+    .bg2 {
+        background-image: url(https://github.com/eiiko6/LyphDraw-portfolio/blob/assets/artworks/Axo-small.png?raw=true);
+    }
+
+    .bg3 {
+        background-image: url(https://github.com/eiiko6/LyphDraw-portfolio/blob/assets/artworks/Cool%20Girl-small.png?raw=true);
+    }
+
+    .bg4 {
+        background-image: url(https://github.com/eiiko6/LyphDraw-portfolio/blob/assets/artworks/Joseph-small.png?raw=true);
+    }
+
+    .bg5 {
+        background-image: url(https://github.com/eiiko6/LyphDraw-portfolio/blob/assets/artworks/Clara%20Cleo-small.png?raw=true);
+    }
+
+    .bg6 {
+        background-image: url(https://github.com/eiiko6/LyphDraw-portfolio/blob/assets/artworks/Monster-small.png?raw=true);
+    }
+
+    .bg7 {
+        background-image: url(https://github.com/eiiko6/LyphDraw-portfolio/blob/assets/artworks/jsp-small.png?raw=true);
+    }
+
+    .bg8 {
+        background-image: url(https://github.com/eiiko6/LyphDraw-portfolio/blob/assets/artworks/Pigeons-small.png?raw=true);
+    }
 
     .background {
         z-index: -1;
@@ -150,12 +259,8 @@
         left: 0;
         right: 0;
         bottom: 0;
-        background-image: url(https://github.com/mxstoto6/LyphDraw-portfolio/blob/assets/artwork.png?raw=true);
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
         background-size: cover;
-        position:absolute;
+        background-position: center;
         filter: brightness(0.3) blur(3px);
     }
 
