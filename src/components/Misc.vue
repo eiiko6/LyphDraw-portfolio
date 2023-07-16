@@ -1,7 +1,7 @@
 <template>
     <div class="content">
         <div class="background"></div>
-        <h1 class="title">You can comission LyphDraw <br> from the following ways:</h1>
+        <h1 class="title">There's nothing here... Yet.</h1>
         <div class="links">
 
             <div></div>
@@ -54,6 +54,15 @@
         bottom:0px;
         left:0px;
         text-align: center;
+    }
+
+    .title {
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
     }
 
     @media screen and (max-width: 730px) {

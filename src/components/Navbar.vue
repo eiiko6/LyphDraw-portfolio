@@ -7,7 +7,7 @@
         <li><router-link class="lk" to="/LyphDraw-portfolio/"><img src="https://github.com/eiiko6/LyphDraw-portfolio/blob/assets/icons8_home_1.ico?raw=true" alt="Home"></router-link></li>
         <li class="b"><router-link class="lk" to="/LyphDraw-portfolio/Artworks"><img src="https://github.com/eiiko6/LyphDraw-portfolio/blob/assets/icons8_large_icons.ico?raw=true" alt="Artworks"></router-link></li>
         <li class="b"><router-link class="lk" to="/LyphDraw-portfolio/Links"><img src="https://github.com/eiiko6/LyphDraw-portfolio/blob/assets/icons8_linking_1.ico?raw=true" alt="Links"></router-link></li>
-        <li class="b"><router-link class="lk" to="/LyphDraw-portfolio/Comissions"><img src="https://github.com/eiiko6/LyphDraw-portfolio/blob/assets/icons8_categorize_5.ico?raw=true" alt="Misc"></router-link></li>
+        <li class="b"><router-link class="lk" to="/LyphDraw-portfolio/Misc"><img src="https://github.com/eiiko6/LyphDraw-portfolio/blob/assets/icons8_categorize_5.ico?raw=true" alt="Misc"></router-link></li>
       </ul>
     </nav>
 </div>

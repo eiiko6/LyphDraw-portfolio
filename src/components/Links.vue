@@ -1,7 +1,7 @@
 <template>
     <div class="content">
         <div class="background"></div>
-        <h1 class="title">Find LyphDraw on social medias!</h1>
+        <h1 class="title">Find LyphDraw on those platforms!</h1>
         <div class="links">
 
             <div class="card">
@@ -23,6 +23,17 @@
                     <h2>Twitch</h2>
                     <p>LyphDraw streams his drawing process from time to time.</p>
                     <div class="button"><a class="link" href="https://www.twitch.tv/evan27draw" target="_blank">Go to Twitch</a></div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-bg"></div>
+
+                <div class="card-content">
+                    <img src="https://github.com/eiiko6/LyphDraw-portfolio/blob/assets/icons8-fiverr-150.png?raw=true" alt="fiverr">
+                    <h2>Fiverr</h2>
+                    <p>You can commission LyphDraw from Fiverr if you'd like.</p>
+                    <div class="button"><a class="link" href="https://www.fiverr.com/freelancers/evanbastien" target="_blank">Go to Fiverr</a></div>
                 </div>
             </div>
 
