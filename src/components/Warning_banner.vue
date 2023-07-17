@@ -1,6 +1,6 @@
 <template>
     <div class="content" id="content">
-        <h2>Warning: this website is a work in progress.<br>Most of it is temporary.</h2>
+        <h2>Warning: this website is a work in progress.<br>Some of it is temporary.</h2>
         <button onclick="this.parentElement.style.display='none';">X</button>
     </div>
 </template>
