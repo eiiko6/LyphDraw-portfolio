@@ -9,7 +9,7 @@ import Warning_banner from './components/Warning_banner.vue'
 
     <Navbar></Navbar>
 
-    <Warning_banner></Warning_banner>
+    <Warning_banner class="banner"></Warning_banner>
 
     <div id="page">
       <router-view></router-view>
@@ -32,6 +32,10 @@ import Warning_banner from './components/Warning_banner.vue'
       margin-left: 0;
       margin-top: 120px;
     }
+  }
+
+  .banner {
+    z-index: 5;
   }
 
 </style>
