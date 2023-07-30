@@ -1,34 +1,30 @@
 <template>
-    <div class="content">
-        <div class="card">
-            <a :href="file" target="_blank">
-                <div class="card-bg" :style="'background-image: url(' + preview + ');'"></div>
+    <a class="card" :href="file" target="_blank">
+        <div class="card-bg" :style="'background-image: url(' + preview + ');'"></div>
 
-                <div class="card-content">
-                    <div class="popup">
-                        <h2>Click to see</h2>
-                    </div>
+        <div class="card-content">
+            <div class="popup">
+                <h2>Click to see</h2>
+            </div>
 
-                    <div class="true-content">
-                        <h2>{{ name }}</h2>
-                        <p>{{ description }}</p>
-                    </div>
-                </div>
-            </a>
+            <div class="true-content">
+                <h2>{{ name }}</h2>
+                <p>{{ description }}</p>
+            </div>
         </div>
-    </div>
+    </a>
 </template>
 
 <script>
-export default {
-    props: [
-        'name',
-        'description',
-        'date',
-        'preview',
-        'file'
-    ]
-}
+    export default {
+        props: [
+            'name',
+            'description',
+            'date',
+            'preview',
+            'file'
+        ]
+    }
 </script>
 
 <style scoped>

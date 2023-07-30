@@ -7,31 +7,31 @@
 
         <h1 class="title">Official artworks</h1>
 
-        <div class="cards" v-for="artwork in artworks">
+        <div class="cards">
 
-            <Artwork :name="artwork.name" :description="artwork.description" :preview="artwork.preview" :file="artwork.file"/>
-
-            <div class="footer"></div>
+            <Artwork v-for="artwork in artworks" :name="artwork.name" :description="artwork.description" :preview="artwork.preview" :file="artwork.file"/>
 
         </div>
+
+        <div class="footer"></div>
 
     </div>
 </template>
 
 <script>
-import Artwork from '../components/Artwork.vue'
-import artworks from '../assets/artworks.json'
+    import Artwork from '../components/Artwork.vue'
+    import artworks from '../assets/artworks.json'
 
-export default {
-    components: {
-        Artwork
-    },
-    data() {
-        return {
-            artworks: artworks.artworks
+    export default {
+        components: {
+            Artwork
+        },
+        data() {
+            return {
+                artworks: artworks.artworks
+            }
         }
     }
-}
 </script>
 
 <style scoped>
