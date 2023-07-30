@@ -1,60 +1,60 @@
 {
     "artworks": [
-        {
-            "name": "Braixen x Doublade",
-            "description": "A Pokémon fusion between Braixen and Doublade.",
-            "date": "Apr 21, 2023",
-            "preview": "https://github.com/eiiko6/LyphDraw-portfolio/blob/assets/artworks/Braixen%20x%20Doublade-small.png?raw=true",
-            "file": "https://cdn.discordapp.com/attachments/851501348775657543/1130235790161629284/Braixen_x_Doublade.png"
-        },
-        {
-            "name": "Axo",
-            "description": "A cute axolotl!",
-            "date": "Feb 15, 2023",
-            "preview": "https://github.com/eiiko6/LyphDraw-portfolio/blob/assets/artworks/Axo-small.png?raw=true",
-            "file": "https://cdn.discordapp.com/attachments/851501348775657543/1130233341082337412/Axo.png"
-        },
-        {
-            "name": "Cool Girl",
-            "description": "A cool girl.",
-            "date": "Dec 10, 2022",
-            "preview": "https://github.com/eiiko6/LyphDraw-portfolio/blob/assets/artworks/Cool%20Girl-small.png?raw=true",
-            "file": "https://cdn.discordapp.com/attachments/851501348775657543/1130235288329920572/Cool_Girl.png"
-        },
-        {
-            "name": "Joseph",
-            "description": "Attempt on a geometrical style thing.",
-            "date": "Apr 16, 2023",
-            "preview": "https://github.com/eiiko6/LyphDraw-portfolio/blob/assets/artworks/Joseph-small.png?raw=true",
-            "file": "https://cdn.discordapp.com/attachments/851501348775657543/1130236874703785994/Joseph.png"
-        },
-        {
-            "name": "Clara Cleo",
-            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, veniam.",
-            "date": "Jul 10, 2022",
-            "preview": "https://github.com/eiiko6/LyphDraw-portfolio/blob/assets/artworks/Clara%20Cleo-small.png?raw=true",
-            "file": "https://cdn.discordapp.com/attachments/851501348775657543/1130236878109560912/Clara_Cleo.png"
-        },
-        {
-            "name": "Monster",
-            "description": "Isn't it cute?",
-            "date": "Dec 10, 2022",
-            "preview": "https://github.com/eiiko6/LyphDraw-portfolio/blob/assets/artworks/Monster-small.png?raw=true",
-            "file": "https://cdn.discordapp.com/attachments/851501348775657543/1130236875714592869/Monster.png"
-        },
-        {
-            "name": "Jsp",
-            "description": "idk.",
-            "date": "May 12, 2023",
-            "preview": "https://github.com/eiiko6/LyphDraw-portfolio/blob/assets/artworks/jsp-small.png?raw=true",
-            "file": "https://cdn.discordapp.com/attachments/851501348775657543/1130236876998066288/jsp.png"
-        },
-        {
-            "name": "Pigeons",
-            "description": "An illustration originally made for a mobile game named \"Flappigeon\".",
-            "date": "Oct 2, 2022",
-            "preview": "https://github.com/eiiko6/LyphDraw-portfolio/blob/assets/artworks/Pigeons-small.png?raw=true",
-            "file": "https://cdn.discordapp.com/attachments/851501348775657543/1130250075990409286/Pigeons.png"
-        }
+      {
+        "name": "Braixen x Doublade",
+        "description": "A Pokémon fusion between Braixen and Doublade.",
+        "date": "Apr 21, 2023",
+        "preview": "https://github.com/eiiko6/LyphDraw-portfolio/blob/assets/artworks/Braixen%20x%20Doublade-small.png?raw=true",
+        "file": "https://cdn.discordapp.com/attachments/851501348775657543/1130235790161629284/Braixen_x_Doublade.png"
+      },
+      {
+        "name": "Jsp",
+        "description": "idk.",
+        "date": "May 12, 2023",
+        "preview": "https://github.com/eiiko6/LyphDraw-portfolio/blob/assets/artworks/jsp-small.png?raw=true",
+        "file": "https://cdn.discordapp.com/attachments/851501348775657543/1130236876998066288/jsp.png"
+      },
+      {
+        "name": "Joseph",
+        "description": "Attempt on a geometrical style thing.",
+        "date": "Apr 16, 2023",
+        "preview": "https://github.com/eiiko6/LyphDraw-portfolio/blob/assets/artworks/Joseph-small.png?raw=true",
+        "file": "https://cdn.discordapp.com/attachments/851501348775657543/1130236874703785994/Joseph.png"
+      },
+      {
+        "name": "Axo",
+        "description": "A cute axolotl!",
+        "date": "Feb 15, 2023",
+        "preview": "https://github.com/eiiko6/LyphDraw-portfolio/blob/assets/artworks/Axo-small.png?raw=true",
+        "file": "https://cdn.discordapp.com/attachments/851501348775657543/1130233341082337412/Axo.png"
+      },
+      {
+        "name": "Cool Girl",
+        "description": "A cool girl.",
+        "date": "Dec 10, 2022",
+        "preview": "https://github.com/eiiko6/LyphDraw-portfolio/blob/assets/artworks/Cool%20Girl-small.png?raw=true",
+        "file": "https://cdn.discordapp.com/attachments/851501348775657543/1130235288329920572/Cool_Girl.png"
+      },
+      {
+        "name": "Monster",
+        "description": "Isn't it cute?",
+        "date": "Dec 10, 2022",
+        "preview": "https://github.com/eiiko6/LyphDraw-portfolio/blob/assets/artworks/Monster-small.png?raw=true",
+        "file": "https://cdn.discordapp.com/attachments/851501348775657543/1130236875714592869/Monster.png"
+      },
+      {
+        "name": "Pigeons",
+        "description": "An illustration originally made for a mobile game named \"Flappigeon\".",
+        "date": "Oct 2, 2022",
+        "preview": "https://github.com/eiiko6/LyphDraw-portfolio/blob/assets/artworks/Pigeons-small.png?raw=true",
+        "file": "https://cdn.discordapp.com/attachments/851501348775657543/1130250075990409286/Pigeons.png"
+      },
+      {
+        "name": "Clara Cleo",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, veniam.",
+        "date": "Jul 10, 2022",
+        "preview": "https://github.com/eiiko6/LyphDraw-portfolio/blob/assets/artworks/Clara%20Cleo-small.png?raw=true",
+        "file": "https://cdn.discordapp.com/attachments/851501348775657543/1130236878109560912/Clara_Cleo.png"
+      }
     ]
-}
+  }
