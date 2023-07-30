@@ -1,0 +1,20 @@
+{
+    "artworks": [
+        {
+            "id": "1",
+            "name": "Braixen x Doublade",
+            "description": "A Pokémon fusion between Braixen and Doublade.",
+            "date": "Apr 21, 2023",
+            "preview": "https://github.com/eiiko6/LyphDraw-portfolio/blob/assets/artworks/Braixen%20x%20Doublade-small.png?raw=true",
+            "file": "https://cdn.discordapp.com/attachments/851501348775657543/1130235790161629284/Braixen_x_Doublade.png"
+        },
+        {
+            "id": "2",
+            "name": "",
+            "description": "",
+            "date": "",
+            "preview": "",
+            "file": ""
+        }
+    ]
+}

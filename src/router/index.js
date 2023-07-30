@@ -1,8 +1,8 @@
 import {createRouter, createWebHistory} from 'vue-router'
-import Home from '../components/Home.vue'
-import Artworks from '../components/Artworks.vue'
-import Links from '../components/Links.vue'
-import Misc from '../components/Misc.vue'
+import Home from '../pages/Home.vue'
+import Artworks from '../pages/Artworks.vue'
+import Links from '../pages/Links.vue'
+import Misc from '../pages/Misc.vue'
 
 const router = createRouter({
     history: createWebHistory(),
