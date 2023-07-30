@@ -7,9 +7,9 @@
 
         <h1 class="title">Official artworks</h1>
 
-        <div class="cards">
+        <div class="cards" v-for="artwork in artworks">
 
-            <Artwork :name="artworks[0].name" :description="artworks[0].description" :preview="artworks[0].preview" :file="artworks[0].file"/>
+            <Artwork :name="artwork.name" :description="artwork.description" :preview="artwork.preview" :file="artwork.file"/>
 
             <div class="footer"></div>
 
@@ -20,26 +20,7 @@
 
 <script>
 import Artwork from '../components/Artwork.vue'
-// import artworks from '../assets/artworks.json' //
-
-const artworks = [
-    {
-        "id": "1",
-        "name": "Braixen x Doublade",
-        "description": "A Pokémon fusion between Braixen and Doublade.",
-        "date": "Apr 21, 2023",
-        "preview": "https://github.com/eiiko6/LyphDraw-portfolio/blob/assets/artworks/Braixen%20x%20Doublade-small.png?raw=true",
-        "file": "https://cdn.discordapp.com/attachments/851501348775657543/1130235790161629284/Braixen_x_Doublade.png"
-    },
-    {
-        "id": "2",
-        "name": "fromage",
-        "description": "aaa",
-        "date": "aa",
-        "preview": "aaa",
-        "file": "aa"
-    }
-]
+import artworks from '../assets/artworks.json'
 
 export default {
     components: {
@@ -47,7 +28,7 @@ export default {
     },
     data() {
         return {
-            artworks
+            artworks: artworks.artworks
         }
     }
 }
