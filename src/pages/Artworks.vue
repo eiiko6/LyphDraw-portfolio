@@ -10,10 +10,9 @@
         <div class="cards">
 
             <Artwork v-for="artwork in artworks" :name="artwork.name" :description="artwork.description" :preview="artwork.preview" :file="artwork.file"/>
+            <div class="footer"></div>
 
         </div>
-
-        <div class="footer"></div>
 
     </div>
 </template>
