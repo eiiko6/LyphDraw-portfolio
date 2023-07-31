@@ -7,9 +7,11 @@
 
         <h1 class="title">Official artworks</h1>
 
+        <button @click="sort">Sort by: {{ sortBy }}</button>
+
         <div class="cards">
 
-            <Artwork v-for="artwork in artworks" :name="artwork.name" :description="artwork.description" :preview="artwork.preview" :file="artwork.file"/>
+            <Artwork v-for="artwork in sortedArtworks" :key="artwork.id" :name="artwork.name" :description="artwork.description" :preview="artwork.preview" :file="artwork.file"/>
             <div class="footer"></div>
 
         </div>
@@ -26,11 +28,27 @@
             Artwork
         },
         data() {
+            const sortedArtworks = artworks.artworks.sort((a, b) => b.id - a.id); // Sort artworks in reverse order by ID,
             return {
-                artworks: artworks.artworks
-            }
-        }
-    }
+                sortedArtworks: sortedArtworks,
+                sortBy: "date", // Initially sorting by "date"
+            };
+        },
+        methods: {
+            sort() {
+                if (this.sortBy === "date") {
+                    this.sortedArtworks.sort((a, b) => {
+                        // Sort by name in ascending order
+                        return a.name.localeCompare(b.name);
+                    });
+                    this.sortBy = "name";
+                } else if (this.sortBy === "name") {
+                    this.sortedArtworks.sort((a, b) => b.id - a.id); // Revert to the initial sorting by ID
+                    this.sortBy = "date";
+                }
+            },
+        },
+    };
 </script>
 
 <style scoped>
@@ -84,5 +102,28 @@
         height: 100vh;
         flex-wrap: wrap;
         margin-top: 50px;
+    }
+
+    button {
+        border-radius: 8px;
+        border: 1px solid transparent;
+        padding: 0.6em 1.2em;
+        font-size: 1em;
+        font-weight: 500;
+        font-family: inherit;
+        background-color: #2e2e2e;
+        cursor: pointer;
+        transition: border-color 0.25s;
+        color: #ff8080;
+    }
+
+    button:hover {
+        border-color: #ff646497;
+        color: #ff6464;
+    }
+
+    button:focus,
+    button:focus-visible {
+    outline: 4px auto -webkit-focus-ring-color;
     }
 </style>
