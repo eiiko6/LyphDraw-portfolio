@@ -69,7 +69,7 @@
         bottom: 0;
         background-size: cover;
         background-position: center;
-        filter: brightness(0.3) blur(3px);
+        filter: brightness(0.6) blur(3px);
     }
 
     .card-content {
@@ -126,5 +126,22 @@
 
     p {
         margin: 0;
+    }
+
+    @media screen and (max-width: 730px) {
+        .card-bg {
+            transform: scale(1.2);
+            filter: brightness(.75) blur(0);
+        }
+        .card:hover .popup {
+            margin-top: 55%;
+            transition: .2s ease-out;
+            opacity: 0;
+        }
+
+        .card:hover .true-content {
+            transition: .2s ease-out;
+            opacity: 100%;
+        }
     }
 </style>
