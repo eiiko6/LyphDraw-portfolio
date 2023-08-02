@@ -1,23 +1,32 @@
 <script setup>
-import Navbar from './components/Navbar.vue'
-import Warning_banner from './components/Warning_banner.vue'
+  import Navbar from './components/Navbar.vue'
+  import Warning_banner from './components/Warning_banner.vue'
+  import Language_switch from './components/Language_switch.vue'
 </script>
 
 <template>
 
   <div class="content">
 
-    <Navbar></Navbar>
+    <Navbar />
+
+    <div class="settings">
+      <Language_switch :lang="lang" class="languageSwitch"/>
+    </div>
 
     <Warning_banner class="banner"></Warning_banner>
 
     <div id="page">
-      <router-view></router-view>
+      <router-view :lang="lang"></router-view>
     </div>
 
   </div>
 
 </template>
+
+<script>
+  const lang = "eng"
+</script>
 
 <style>
 
@@ -36,6 +45,12 @@ import Warning_banner from './components/Warning_banner.vue'
 
   .banner {
     z-index: 5;
+  }
+
+  .settings {
+    position: absolute;
+    right:0;
+    top:0
   }
 
 </style>

@@ -1,10 +1,5 @@
 <template>
     <div class="content">
-        <!--<div class="warning-banner">
-            <h2>Warning: this website is a work in progress. The graphics are mainly temporary.</h2>
-            <button></button>
-        </div>-->
-
         <div class="background"></div>
         <div class="img"><img class="pfp" src="https://github.com/eiiko6/LyphDraw-portfolio/blob/assets/pfp-small.png?raw=true" alt="pfp"></div>
         <h1>-> LyphDraw</h1>
@@ -15,7 +10,6 @@
 </template>
 
 <script>
-
 </script>
 
 <style scoped>
