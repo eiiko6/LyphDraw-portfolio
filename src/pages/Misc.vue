@@ -58,6 +58,7 @@
 
     .title {
         margin: 0;
+        margin-left: 50px;
         position: absolute;
         top: 50%;
         left: 50%;
@@ -68,6 +69,7 @@
     @media screen and (max-width: 730px) {
     .title {
       font-size: 40px;
+      margin-left: 0;
     }
   }
 
