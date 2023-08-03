@@ -121,9 +121,4 @@
         border-color: #ff646497;
         color: #ff6464;
     }
-
-    button:focus,
-    button:focus-visible {
-    outline: 4px auto -webkit-focus-ring-color;
-    }
 </style>
