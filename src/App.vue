@@ -41,6 +41,10 @@
       margin-left: 0;
       margin-top: 120px;
     }
+
+    .settings {
+      margin-top: 91px;
+    }
   }
 
   .banner {
@@ -50,7 +54,9 @@
   .settings {
     position: absolute;
     right:0;
-    top:0
+    top:0;
+    position: fixed;
+    z-index: 4;
   }
 
 </style>

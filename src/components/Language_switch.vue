@@ -13,10 +13,30 @@
 </script>
 
 <style scoped>
+    .content {
+        background-color: #00000023;
+        color: #fff;
+        border-bottom-left-radius: 8px;
+    }
+
+    .content::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        backdrop-filter: blur(15px);
+        opacity: 0.8;
+        z-index: -1;
+        background-color: #00000023;
+        border-bottom-left-radius: 8px;
+    }
+
     button {
+        color: #fff;
         transition: ease-out .2s;
         background: none;
-        color: #ffffffde;
         border-radius: 0;
         border: none;
         border-bottom-left-radius: 8px;
@@ -28,7 +48,10 @@
         border: none;
         border-bottom: solid #ffffffde 1px;
         border-left: solid #ffffffde 1px;
-        background-color: #ffffff1e;
+    }
+
+    button:hover {
+        background-color: #ffffff2e;
     }
 
     p {
