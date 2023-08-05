@@ -40,8 +40,8 @@
         border-radius: 0;
         border: none;
         border-bottom-left-radius: 8px;
-        border-bottom: solid #ffffffde 1px;
-        border-left: solid #ffffffde 1px;
+        border-bottom: 2px solid #ffffff80;
+        border-left: 2px solid #ffffff80;
     }
 
     button:hover {
