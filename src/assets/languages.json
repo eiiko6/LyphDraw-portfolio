@@ -1,7 +1,23 @@
 {
     "languages": {
         "eng": {
-            "a": 1
+            "home": {
+                "bio": "LyphDraw is a passionate self-taught artist. He has made a large amount of drawings, either classical or digital. His styles are mainly manga/anime, cartoon and semi-realistic illustrations, and he can work with caricatures sometimes. LyphDraw loves experimenting, as seen in the various colors and backgrounds in his artworks.",
+                "button": "Go to artworks"
+            },
+            "artworks": {
+                "title": "Official artworks"
+            },
+            "links": {
+                "title": "Find LyphDraw on these platforms!",
+                "instagram-description": "LyphDraw has been active on Instagram since December 2022.",
+                "twitch-description": "LyphDraw streams his drawing process from time to time.",
+                "fiverr-description": "You can commission LyphDraw from Fiverr if you'd like.",
+                "button": "Go to"
+            },
+            "misc": {
+                "title": "There's nothing here... Yet."
+            }
         }
     }
 }
