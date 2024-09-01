@@ -6,7 +6,7 @@
 </p>
 
 ## Description
-I'm making this for an artist friend.   
+This was made for an artist friend as a way for me to learn front-end dev.   
 It's made using [Vite](https://vitejs.dev/)+[Vue](https://vuejs.org/), vanilla JavaScript. The css is fully handmade.
 
 Issues and PRs are welcome btw ^^
